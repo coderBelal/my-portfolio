@@ -33,7 +33,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center   font-press-start px-4">
+    <div className="min-h-screen flex items-center justify-center    px-4">
       <div className="max-w-5xl w-full bg-gray-900 p-8 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-[#10E956] text-center mb-8">
           Get in Touch

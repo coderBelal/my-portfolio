@@ -3,7 +3,7 @@ import belal from "../assets/b.jpg";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen bg-gray-900 font-press-start text-white flex flex-col items-center justify-center text-center space-y-8 p-5 pt-24">
+    <div className="min-h-screen bg-gray-900   text-white flex flex-col items-center justify-center text-center space-y-8 p-5 pt-24">
       
       <p className="text-2xl md:text-3xl text-green-500" data-aos="fade-left">✌️ Hi There! I'm Belal Uddin</p>
 

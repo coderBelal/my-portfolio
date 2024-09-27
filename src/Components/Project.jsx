@@ -57,7 +57,7 @@ const Project = () => {
   const projectsToShow = selectedCategory === 'myWork' ? myProjects : teamProjects;
 
   return (
-    <div className="w-full mx-auto py-12 px-4 pt-16 md:px-8 font-press-start">
+    <div className="w-full mx-auto py-12 px-4 pt-16 md:px-8  ">
       <h1 className="text-[#10E956] text-4xl text-center mb-10 tracking-wide">My Work</h1>
       
       <div className="flex justify-center mb-8 space-x-4">

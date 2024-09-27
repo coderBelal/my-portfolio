@@ -2,7 +2,7 @@
 import belal from  "../assets/b3.jpg"
 const About = () => {
   return (
-    <section className="max-w-7xl mx-auto py-16 px-4  font-press-start">
+    <section className="max-w-7xl mx-auto py-16 px-4   ">
       <h2 className="text-3xl text-center text-[#10E956] mb-4">ABOUT ME</h2>
       <p className="text-white text-center mb-8">
         As a front-end developer, I thrive on turning complex design concepts

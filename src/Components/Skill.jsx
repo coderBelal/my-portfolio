@@ -24,7 +24,7 @@ const otherSkills = [
 
 const Skill = () => {
   return (
-    <div className="max-w-7xl mx-auto text-center mt-10 font-press-start">
+    <div className="max-w-7xl mx-auto text-center mt-10  ">
     <h1 className="text-4xl font-bold mb-10 text-white">
       Skills <span className="text-[#10E956]">Front End</span>
     </h1>
