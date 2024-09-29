@@ -28,7 +28,7 @@ const Skill = () => {
     <h1 className="text-4xl font-bold mb-10 text-white">
       Skills <span className="text-[#10E956]">Front End</span>
     </h1>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-center">
+    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-center">
       {skills.map((skill, index) => (
         <div
           key={index}
@@ -57,7 +57,7 @@ const Skill = () => {
     <h1 className="text-4xl font-bold my-10 text-white">
       <span className="text-[#10E956]">Other</span> Skills
     </h1>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-center">
+    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-center">
       {otherSkills.map((skill, index) => (
         <div
           key={index}
