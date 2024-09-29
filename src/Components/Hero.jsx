@@ -1,4 +1,5 @@
 import belal from "../assets/b.jpg";
+import cv from "../assets/belaluddin.pdf";
 
 const Hero = () => {
   return (
@@ -42,13 +43,14 @@ const Hero = () => {
           budget.
         </p>
 
-        {/* Button and experience details below the text */}
+    
         <div className="space-y-4">
           <a
-            href="/path-to-your-cv.pdf"
+            href= {cv}
             className="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition-colors"
             download
           >
+        
             Download CV
           </a>
           <p className="text-base md:text-lg text-gray-300">

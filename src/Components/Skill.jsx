@@ -1,16 +1,13 @@
 const skills = [
   { title: "HTML5", img: "https://i.postimg.cc/WtRGQmhZ/html.png" },
   { title: "CSS3", img: "https://i.postimg.cc/0N9fkCZd/css.png" },
-  {
-    title: "Bootstrap",
-    img: "https://i.postimg.cc/rw1j2HGw/boot-k-VMau-UEo.jpg",
-  },
+ 
   { title: "Tailwind", img: "https://i.postimg.cc/Xq5HGY5w/tailwind.png" },
   { title: "Sass", img: "https://i.postimg.cc/pT4cLFmW/sass.png" },
   { title: "JavaScript", img: "https://i.postimg.cc/BZjdfqjZ/js.png" },
   { title: "React", img: "https://i.postimg.cc/T3JsJ140/redux.png" },
   { title: "Redux", img: "https://i.postimg.cc/SsJt4rN1/redux-B2yjgmpq.png" },
-  { title: "TypeScript", img: "https://i.postimg.cc/h4Q33pYf/typescript.jpg" },
+ 
   { title: "Next JS", img: "https://i.postimg.cc/gkRQrNyf/next.png" },
 ];
 

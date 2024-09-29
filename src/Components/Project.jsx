@@ -12,6 +12,14 @@ const myProjects = [
     technologies: ['React', "Tailwind Css"],
   },
   {
+    title: 'Expense Tracker',
+    description: ' The Expense Tracker is a simple and user-friendly application that allows users to easily track their daily expenses. In this project, users can log in to add, edit, and delete their expenses. For each expense, users can specify a name, amount, and date.The application displays the information in the form of cards, helping users to view and manage their expenses easily. With various filter and search features, users can quickly and effectively navigate through their list of expenses.',
+    image: 'https://i.postimg.cc/3RzPSGzc/Screenshot-2024-09-30-000257.png ',
+    liveLink: 'https://expense-tracker-one-pink-15.vercel.app/',
+    codeLink: ' https://github.com/coderBelal/Expense-Tracker/tree/main',
+    technologies: ['React', "Tailwind Css","Firebase"],
+  },
+  {
     title: 'Sheba Care',
     description: 'A healthcare platform designed to offer services related to wellness and medical care with a focus on user experience and efficiency.',
     image: 'https://i.postimg.cc/KzvmbZNf/Screenshot-2024-09-27-203347.png',
@@ -41,7 +49,7 @@ const teamProjects = [
   {
     title: 'Spaajman',
     description: 'A luxury spa and wellness service platform that offers a range of treatments and booking features, designed with modern web technologies.',
-    image: 'https://i.postimg.cc/zv7WBXZf/Screenshot-2024-09-27-202220.png',
+    image: 'https://i.postimg.cc/dQyM7WyP/Screenshot-2024-09-30-000210.png',
     liveLink: 'https://sparlax.com/',
     technologies: ['Node.js', 'Express', 'MongoDB', "React"],
   },
