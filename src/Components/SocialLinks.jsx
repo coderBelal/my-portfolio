@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 const SocialLinks = () => {
   return (
     <div className="flex flex-col items-center mt-12 w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center w-full">
+      <div className="grid p-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center w-full">
         <a
           href="https://github.com/coderBelal"
           target="_blank"

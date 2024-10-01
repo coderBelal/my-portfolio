@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+ 
 import 'swiper/css';
+import 'swiper/css/navigation'; // Import Navigation styles
+import { Navigation } from 'swiper/modules';
 
+ 
 const myProjects = [
   {
     title: 'কুরআনুল কারীম',
@@ -17,7 +21,7 @@ const myProjects = [
     image: 'https://i.postimg.cc/3RzPSGzc/Screenshot-2024-09-30-000257.png ',
     liveLink: 'https://expense-tracker-one-pink-15.vercel.app/',
     codeLink: ' https://github.com/coderBelal/Expense-Tracker/tree/main',
-    technologies: ['React', "Tailwind Css","Firebase"],
+    technologies: ['React', "Tailwind Css", "Firebase"],
   },
   {
     title: 'Sheba Care',
@@ -53,8 +57,8 @@ const teamProjects = [
     liveLink: 'https://sparlax.com/',
     technologies: ['Node.js', 'Express', 'MongoDB', "React"],
   },
+  
 ];
-
 const Project = () => {
   const [selectedCategory, setSelectedCategory] = useState('myWork');
 
@@ -87,7 +91,13 @@ const Project = () => {
         </button>
       </div>
 
-      <Swiper spaceBetween={50} slidesPerView={1} className="w-full">
+      <Swiper 
+        spaceBetween={50} 
+        slidesPerView={1} 
+        navigation // Enable navigation
+        modules={[Navigation]} // Add Navigation module
+        className="w-full lg:w-3/4 lg:h-3/4"
+      >
         {projectsToShow.map((project, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col items-center bg-gradient-to-b from-[#0D1B2A] to-[#1B263B] text-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-out">
@@ -119,8 +129,7 @@ const Project = () => {
               <button className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-all duration-300 ease-in-out shadow-md transform hover:scale-105">
                 Technologies Used
               </button>
-              <ul className="mt-4  text-black
-               flex gap-3  bg-[#10E956] py-2 px-2 rounded-lg">
+              <ul className="mt-4 flex gap-3 bg-[#10E956] py-2 px-2 rounded-lg">
                 {project.technologies.map((tech, idx) => (
                   <li key={idx} className="text-center">{tech}</li>
                 ))}
