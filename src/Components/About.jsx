@@ -29,7 +29,7 @@ const About = () => {
           <div className="flex flex-wrap gap-4">
             <div className="w-full sm:w-1/2 flex justify-between">
               <strong className="text-gray-500">Birthday:</strong>
-              <span className="text-white">29 March, 2006</span>
+              <span className="text-white">29 March, 200*</span>
             </div>
             <div className="w-full sm:w-1/2 flex justify-between">
               <strong className="text-gray-500">Language:</strong>
